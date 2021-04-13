@@ -5,7 +5,7 @@
 #include <thread>
 using namespace std;
 
-mutex gmutex;
+std::mutex gmutex;
 condition_variable gcv;
 
 bool ready = false;
@@ -44,22 +44,18 @@ void produce()
     while (true)
     {
         unique_lock<mutex> lck(gmutex);
+        gcv.wait(lck, []() { return ready == false; });
         data = produceData();
         ready = true;
         lck.unlock();
         gcv.notify_one();
-        lck.lock();
-        gcv.wait(lck, []() { return ready == false; });
     }
 }
 
-void startConsumer(int times) { consume(); }
-void startProducer(int times) { produce(); }
-
 int main()
 {
-    thread t1(startConsumer);
-    thread t2(startProducer);
+    thread t1(consume);
+    thread t2(produce);
     t1.join();
     t2.join();
 }
