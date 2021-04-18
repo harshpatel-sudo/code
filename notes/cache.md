@@ -1,5 +1,13 @@
 # Cache
-## [Write cache-friendly code](https://www.youtube.com/watch?v=Nz9SiF0QVKY&ab_channel=MeetingCpp)
+
+Cache is just a concept of effectively storing data in faster memory.
+
+CPU caches:
+* L1 - Separate for each core
+* L2 - Shared/separate between cores
+* L3 - Shared among all cores
+
+## Write cache-friendly code - [MeetingCpp](https://www.youtube.com/watch?v=Nz9SiF0QVKY&ab_channel=MeetingCpp)
 
 ### Takeaway 1: 6:20
   * Memory access is slow, so used memory is cached.
@@ -47,3 +55,14 @@ Cache prefetching
     * Take care of the instruction cache - put cold code away from hot code
 
 * Use benchmarks and profiling tools.
+
+## Terms:
+
+* Cache hit
+* Cache miss
+* Writing policies
+  * Write-thourgh
+  * Write back
+* Policies
+  * Time aware least recently used (TLRU)
+  * Least frequent recently used (LFRU)
