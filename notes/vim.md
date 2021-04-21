@@ -1,0 +1,44 @@
+# Vim
+## Navigate
+- Use arrow keys to navigate in both command and insert mode
+- j - Up
+- k - Down
+- h - Left
+- l - Right
+- Esc - Command mode
+- G - Mode End
+- gg - Move on top
+- } - Move to end of the block of code
+- { - Move to start of the block of code
+- 20j - Move 20 lines Up -> These numbers can be used with all commands
+- dd - Delete the line
+- D - Delete rest of the line
+- u - Undo
+- ^R - Redo
+- yy - Copy the line
+- p - Paste below
+- P - paste at cursor
+- V - Go to visual mode -> to select text
+- o - Drop to the new line below
+- O - Drop to the new line above
+- w - Next word
+- b - Previous word
+- :30 - Move to line 30
+- W - Next word(Punctuation Ignored)
+- B - Prev word(Punctuation Ignored)
+- t{char} - To in front of any character
+- f{char} - Go to that character
+- % - Navigate to closing brace
+- c - Change 
+- cw - Change word
+- * - to find the next occurance of the word
+- zz - Go to center of the file
+- a - Move to insert mode; but cursor points to one char right
+- A - Insert mode to End of the line
+- I - Insert mode start of the line
+- ~ - swap the case
+- . - Rerun the last command
+- r - replace the word
+- > - indent right
+- < - Indent Left
+- q - start Recording
