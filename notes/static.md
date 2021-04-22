@@ -55,3 +55,5 @@ Static has different meanings in different contexts:
 - Initialized static variable are stored in Data Segment.
 
 - C++11 guarantees thread-safe initialization of static variables. 
+
+- Statics do not participate in inheritance. They (members and funcitons) are __not__ inherited.
