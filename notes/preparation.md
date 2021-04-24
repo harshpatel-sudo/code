@@ -37,3 +37,5 @@
 * [cppcon](https://www.youtube.com/user/CppCon/featured)
 
 * [Clean Code](https://www.youtube.com/playlist?list=PLUxszVpqZTNShoypLQW9a4dEcffsoZT4k)
+
+* [C++ Talks - Coding, Guidelines, Legacy Code, Maintainability, Modernization, Refactoring, Testing](https://www.youtube.com/playlist?list=PLrR3oTpJZ9ThOhTOBEvwrUZC5aVxj4WSI)
