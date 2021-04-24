@@ -5,9 +5,9 @@ It allows to add initialization statement inside if statement.
 Useful for preventing scope-leak
 
 ## Syntax
-if(_initialize statement_); _condition_) {_code_}
+if(_initialize statement_; _condition_) {_code_}
 ```C++
 
-if(int a=0); a!=){}
+if(int a=0; a!=){}
 
 ```
