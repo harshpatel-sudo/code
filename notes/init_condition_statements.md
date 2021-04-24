@@ -8,6 +8,6 @@ Useful for preventing scope-leak
 if(_initialize statement_; _condition_) {_code_}
 ```C++
 
-if(int a=0; a!=){}
+if(int a=somefunc(); a!=0){}
 
 ```
