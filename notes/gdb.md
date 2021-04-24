@@ -1,0 +1,11 @@
+# GDB
+- compile the program using __-g__
+- _start_ - start the program and break at main
+- _list_ - show the program code
+- _ctrl-x -> 1_ - show code window
+- _ctrl-x -> 2_ - show assembly -> doing it again will show registers
+- _next_ - go to next line
+- _layout src_ - show source
+- _layout asm_ - show assembly
+- _layout reg_ - show registers
+- _q_ - Quit
