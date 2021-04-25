@@ -9,3 +9,7 @@
 - _layout asm_ - show assembly
 - _layout reg_ - show registers
 - _q_ - Quit
+- _print var_ - prints value of var
+- _x addr_ - print value of addr; addr is address.
+- _b 24_ - Breaks at line 24
+- _command 2_ - breaks at Breakpoint 2

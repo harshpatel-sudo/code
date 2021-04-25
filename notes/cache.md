@@ -56,6 +56,23 @@ Cache prefetching
 
 - Use benchmarks and profiling tools.
 
+## Cache Associativiy
+
+### DM : Direct Map
+- Elements will be stored at their hash index only. If there exist any element already, it will be replaced
+- It will not check whether other indexes are empty or not.
+- While reading; element will be checked at Hashed index -> if not found (cache miss) it will go to memory
+  
+### FA : Fully Associative
+- Element can be stored at any position based on LRU like algorithms.
+- While reading; whole cache line is taken and then all values are compared one by one.
+  
+### SA : Set Associative
+- Combination of both : Memory will be separated in sets.
+- Hash will determine the set index
+- If first position in set is already filled (cache miss) then it will be stored at next position in the set.
+- While Reading; whole set is taken based on Hash and elements are compared one by one.
+
 ## Terms:
 
 - Cache hit
