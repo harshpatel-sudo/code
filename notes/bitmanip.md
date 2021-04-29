@@ -1,10 +1,11 @@
+```C++
 #include<iostream>
 
 using namespace std;
 
 int main(){
     int a=10;
-    unsigned int ua =10;
+    unsig =10;
     int na = -10;
     int shift = 555;
     a=a<<shift;
@@ -23,3 +24,4 @@ int main(){
         cout << d << endl;
     //}
 }
+```

@@ -1,3 +1,4 @@
+```C++
 struct S{};
 
 void f1(S s); // Pass by Value
@@ -35,3 +36,4 @@ Move Semantics:
     Whenever object is being constructed/copied/assigned from temporary; temporary's values can be shifted insted of COPYing members
 
 */
+````
