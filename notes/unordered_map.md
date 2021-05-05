@@ -18,4 +18,3 @@ umap.insert(make_pair("Zero",0));
 - Ordered map
 - Implemented using Binary Tree
 - Default sorting parameter is ```std::less```
-- 

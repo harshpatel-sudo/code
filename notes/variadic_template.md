@@ -2,6 +2,7 @@
 
 - Can take variable number of template arguments (of same or different types )
 - Expands itself in place
+
 ```C++
 #include<vector>
 template<typename T>
